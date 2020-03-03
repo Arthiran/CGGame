@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{89AF369E-F58E-B539-FEA6-40106A051C9B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\florp">
+      <UniqueIdentifier>{7BCB3DA5-E78B-B9DB-B0C6-02591C46FEB7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\florp\app">
+      <UniqueIdentifier>{4B82F85D-B798-F6F3-0010-82156C65C77B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\florp\game">
+      <UniqueIdentifier>{24D60B1D-10BA-CC72-791A-C7C5651DB7F4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\florp\graphics">
+      <UniqueIdentifier>{3B4A34CF-2744-5D21-10B1-F331FC49C38D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\florp\utils">
+      <UniqueIdentifier>{3B4D8EBF-A7AE-6BCD-301C-B27F9C7CA28C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{2DAB880B-99B4-887C-2230-9F7C8E38947C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\florp">
+      <UniqueIdentifier>{1FF22EB5-8B5C-E32B-D49A-94D14044C180}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\florp\app">
+      <UniqueIdentifier>{EF5AA4B9-5B1B-20F0-2456-696D90D564CC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\florp\game">
+      <UniqueIdentifier>{48C332EE-3491-26F4-1D25-971A09920259}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\florp\graphics">
+      <UniqueIdentifier>{5F299586-4B0D-56DC-B46D-502FA070405E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\florp\utils">
+      <UniqueIdentifier>{DFDE92B5-4B6A-007A-547B-836EC0855C7A}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\florp\app\Application.h">
+      <Filter>include\florp\app</Filter>
+    </ClInclude>
+    <ClInclude Include="include\florp\app\ApplicationLayer.h">
+      <Filter>include\florp\app</Filter>
+    </ClInclude>
+    <ClInclude Include="include\florp\app\Timing.h">
+      <Filter>include\florp\app</Filter>
+    </ClInclude>
+    <ClInclude Include="include\florp\app\Window.h">
+      <Filter>include\florp\app</Filter>
+    </ClInclude>
+    <ClInclude Include="include\florp\game\BehaviourLayer.h">
+      <Filter>include\florp\game</Filter>
+    </ClInclude>
+    <ClInclude Include="include\florp\game\IBehaviour.h">
+      <Filter>include\florp\game</Filter>
+    </ClInclude>
+    <ClInclude Include="include\florp\game\ImGuiLayer.h">
+      <Filter>include\florp\game</Filter>
+    </ClInclude>
+    <ClInclude Include="include\florp\game\Material.h">
+      <Filter>include\florp\game</Filter>
+    </ClInclude>
+    <ClInclude Include="include\florp\game\RenderableComponent.h">
+      <Filter>include\florp\game</Filter>
+    </ClInclude>
+    <ClInclude Include="include\florp\game\Scene.h">
+      <Filter>include\florp\game</Filter>
+    </ClInclude>
+    <ClInclude Include="include\florp\game\SceneManager.h">
+      <Filter>include\florp\game</Filter>
+    </ClInclude>
+    <ClInclude Include="include\florp\game\Transform.h">
+      <Filter>include\florp\game</Filter>
+    </ClInclude>
+    <ClInclude Include="include\florp\graphics\BufferLayout.h">
+      <Filter>include\florp\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="include\florp\graphics\IGraphicsResource.h">
+      <Filter>include\florp\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="include\florp\graphics\ITexture.h">
+      <Filter>include\florp\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="include\florp\graphics\Mesh.h">
+      <Filter>include\florp\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="include\florp\graphics\MeshBuilder.h">
+      <Filter>include\florp\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="include\florp\graphics\MeshData.h">
+      <Filter>include\florp\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="include\florp\graphics\ObjLoader.h">
+      <Filter>include\florp\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="include\florp\graphics\RasterizerState.h">
+      <Filter>include\florp\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="include\florp\graphics\Shader.h">
+      <Filter>include\florp\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="include\florp\graphics\ShaderEnums.h">
+      <Filter>include\florp\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="include\florp\graphics\Texture2D.h">
+      <Filter>include\florp\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="include\florp\graphics\TextureCube.h">
+      <Filter>include\florp\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="include\florp\graphics\TextureEnums.h">
+      <Filter>include\florp\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="include\florp\graphics\TextureSampler.h">
+      <Filter>include\florp\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="include\florp\utils\FileUtils.h">
+      <Filter>include\florp\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="include\florp\utils\TextureUtils.h">
+      <Filter>include\florp\utils</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\florp\app\Application.cpp">
+      <Filter>src\florp\app</Filter>
+    </ClCompile>
+    <ClCompile Include="src\florp\app\Timing.cpp">
+      <Filter>src\florp\app</Filter>
+    </ClCompile>
+    <ClCompile Include="src\florp\app\Window.cpp">
+      <Filter>src\florp\app</Filter>
+    </ClCompile>
+    <ClCompile Include="src\florp\game\BehaviourLayer.cpp">
+      <Filter>src\florp\game</Filter>
+    </ClCompile>
+    <ClCompile Include="src\florp\game\ImGuiLayer.cpp">
+      <Filter>src\florp\game</Filter>
+    </ClCompile>
+    <ClCompile Include="src\florp\game\Material.cpp">
+      <Filter>src\florp\game</Filter>
+    </ClCompile>
+    <ClCompile Include="src\florp\game\Scene.cpp">
+      <Filter>src\florp\game</Filter>
+    </ClCompile>
+    <ClCompile Include="src\florp\game\SceneManager.cpp">
+      <Filter>src\florp\game</Filter>
+    </ClCompile>
+    <ClCompile Include="src\florp\game\Transform.cpp">
+      <Filter>src\florp\game</Filter>
+    </ClCompile>
+    <ClCompile Include="src\florp\graphics\BufferLayout.cpp">
+      <Filter>src\florp\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\florp\graphics\ITexture.cpp">
+      <Filter>src\florp\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\florp\graphics\Mesh.cpp">
+      <Filter>src\florp\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\florp\graphics\MeshBuilder.cpp">
+      <Filter>src\florp\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\florp\graphics\ObjLoader.cpp">
+      <Filter>src\florp\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\florp\graphics\Shader.cpp">
+      <Filter>src\florp\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\florp\graphics\Texture2D.cpp">
+      <Filter>src\florp\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\florp\graphics\TextureCube.cpp">
+      <Filter>src\florp\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\florp\graphics\TextureSampler.cpp">
+      <Filter>src\florp\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\florp\utils\FileUtils.cpp">
+      <Filter>src\florp\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="src\florp\utils\TextureUtils.cpp">
+      <Filter>src\florp\utils</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

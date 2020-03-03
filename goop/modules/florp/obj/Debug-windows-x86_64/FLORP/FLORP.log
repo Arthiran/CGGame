@@ -1,0 +1,74 @@
+﻿  Application.cpp
+  Timing.cpp
+  Window.cpp
+C:\Users\arthi\Documents\ComputerGraphics\Tutorials\goop\modules\florp\src\florp\app\Window.cpp(145,92): warning C4805: '|': unsafe mix of type 'int' and type 'const bool' in operation
+  BehaviourLayer.cpp
+  ImGuiLayer.cpp
+C:\Users\arthi\Documents\ComputerGraphics\Tutorials\goop\dependencies\imgui\imgui_impl_opengl3.cpp(155,1): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\string.h(133): message : see declaration of 'strcpy'
+C:\Users\arthi\Documents\ComputerGraphics\Tutorials\goop\dependencies\imgui\imgui_impl_opengl3.cpp(156,1): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\string.h(90): message : see declaration of 'strcat'
+C:\Users\arthi\Documents\ComputerGraphics\Tutorials\goop\dependencies\imgui\imgui_impl_opengl3.cpp(458,1): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(2263): message : see declaration of 'sscanf'
+  Material.cpp
+  Scene.cpp
+  SceneManager.cpp
+  Transform.cpp
+  BufferLayout.cpp
+  ITexture.cpp
+  Mesh.cpp
+C:\Users\arthi\Documents\ComputerGraphics\Tutorials\goop\modules\florp\src\florp\graphics\Mesh.cpp(40,33): warning C4312: 'type cast': conversion from 'const uint32_t' to 'const void *' of greater size
+C:\Users\arthi\Documents\ComputerGraphics\Tutorials\goop\modules\florp\src\florp\graphics\Mesh.cpp(75,72): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+C:\Users\arthi\Documents\ComputerGraphics\Tutorials\goop\modules\florp\src\florp\graphics\Mesh.cpp(77,48): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+  MeshBuilder.cpp
+C:\Users\arthi\Documents\ComputerGraphics\Tutorials\goop\modules\florp\src\florp\graphics\MeshBuilder.cpp(27,13): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\arthi\Documents\ComputerGraphics\Tutorials\goop\modules\florp\src\florp\graphics\MeshBuilder.cpp(28,13): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\arthi\Documents\ComputerGraphics\Tutorials\goop\modules\florp\src\florp\graphics\MeshBuilder.cpp(34,38): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\arthi\Documents\ComputerGraphics\Tutorials\goop\modules\florp\src\florp\graphics\MeshBuilder.cpp(73,12): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\arthi\Documents\ComputerGraphics\Tutorials\goop\modules\florp\src\florp\graphics\MeshBuilder.cpp(74,12): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\arthi\Documents\ComputerGraphics\Tutorials\goop\modules\florp\src\florp\graphics\MeshBuilder.cpp(120,47): warning C4267: 'initializing': conversion from 'size_t' to 'uint32_t', possible loss of data
+C:\Users\arthi\Documents\ComputerGraphics\Tutorials\goop\modules\florp\src\florp\graphics\MeshBuilder.cpp(121,47): warning C4267: 'initializing': conversion from 'size_t' to 'uint32_t', possible loss of data
+C:\Users\arthi\Documents\ComputerGraphics\Tutorials\goop\modules\florp\src\florp\graphics\MeshBuilder.cpp(124,28): warning C4244: 'initializing': conversion from 'double' to 'uint32_t', possible loss of data
+C:\Users\arthi\Documents\ComputerGraphics\Tutorials\goop\modules\florp\src\florp\graphics\MeshBuilder.cpp(209,15): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\arthi\Documents\ComputerGraphics\Tutorials\goop\modules\florp\src\florp\graphics\MeshBuilder.cpp(216,34): warning C4267: 'initializing': conversion from 'size_t' to 'uint32_t', possible loss of data
+C:\Users\arthi\Documents\ComputerGraphics\Tutorials\goop\modules\florp\src\florp\graphics\MeshBuilder.cpp(217,47): warning C4267: 'initializing': conversion from 'size_t' to 'uint32_t', possible loss of data
+C:\Users\arthi\Documents\ComputerGraphics\Tutorials\goop\modules\florp\src\florp\graphics\MeshBuilder.cpp(223,16): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\arthi\Documents\ComputerGraphics\Tutorials\goop\modules\florp\src\florp\graphics\MeshBuilder.cpp(224,15): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\arthi\Documents\ComputerGraphics\Tutorials\goop\modules\florp\src\florp\graphics\MeshBuilder.cpp(227,30): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\arthi\Documents\ComputerGraphics\Tutorials\goop\modules\florp\src\florp\graphics\MeshBuilder.cpp(295,42): warning C4267: 'initializing': conversion from 'size_t' to 'uint32_t', possible loss of data
+C:\Users\arthi\Documents\ComputerGraphics\Tutorials\goop\modules\florp\src\florp\graphics\MeshBuilder.cpp(341,42): warning C4267: 'initializing': conversion from 'size_t' to 'uint32_t', possible loss of data
+C:\Users\arthi\Documents\ComputerGraphics\Tutorials\goop\modules\florp\src\florp\graphics\MeshBuilder.cpp(345,29): warning C4018: '<': signed/unsigned mismatch
+  ObjLoader.cpp
+C:\Users\arthi\Documents\ComputerGraphics\Tutorials\goop\modules\florp\src\florp\graphics\ObjLoader.cpp(102,63): warning C4244: 'argument': conversion from 'float' to 'T', possible loss of data
+          with
+          [
+              T=uint32_t
+          ]
+C:\Users\arthi\Documents\ComputerGraphics\Tutorials\goop\modules\florp\src\florp\graphics\ObjLoader.cpp(133,21): warning C4267: 'argument': conversion from 'size_t' to 'glm::mat<3,3,uint32_t,0>::length_type', possible loss of data
+C:\Users\arthi\Documents\ComputerGraphics\Tutorials\goop\modules\florp\src\florp\graphics\ObjLoader.cpp(133,31): warning C4267: 'argument': conversion from 'size_t' to 'glm::vec<3,glm::uint,0>::length_type', possible loss of data
+C:\Users\arthi\Documents\ComputerGraphics\Tutorials\goop\modules\florp\src\florp\graphics\ObjLoader.cpp(143,22): warning C4267: 'argument': conversion from 'size_t' to 'glm::mat<3,3,uint32_t,0>::length_type', possible loss of data
+C:\Users\arthi\Documents\ComputerGraphics\Tutorials\goop\modules\florp\src\florp\graphics\ObjLoader.cpp(143,32): warning C4267: 'argument': conversion from 'size_t' to 'glm::vec<3,glm::uint,0>::length_type', possible loss of data
+C:\Users\arthi\Documents\ComputerGraphics\Tutorials\goop\modules\florp\src\florp\graphics\ObjLoader.cpp(202,41): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\arthi\Documents\ComputerGraphics\Tutorials\goop\modules\florp\src\florp\graphics\ObjLoader.cpp(204,40): warning C4267: 'argument': conversion from 'size_t' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=uint32_t
+          ]
+  Shader.cpp
+C:\Users\arthi\Documents\ComputerGraphics\Tutorials\goop\modules\florp\src\florp\graphics\Shader.cpp(80,85): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+  Texture2D.cpp
+C:\Users\arthi\Documents\ComputerGraphics\Tutorials\goop\modules\florp\src\florp\graphics\Texture2D.cpp(137,84): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+C:\Users\arthi\Documents\ComputerGraphics\Tutorials\goop\modules\florp\src\florp\graphics\Texture2D.cpp(143,59): warning C4244: '=': conversion from 'double' to 'uint32_t', possible loss of data
+  TextureCube.cpp
+C:\Users\arthi\Documents\ComputerGraphics\Tutorials\goop\modules\florp\src\florp\graphics\TextureCube.cpp(88,5): warning C4002: too many arguments for function-like macro invocation 'assert'
+C:\Users\arthi\Documents\ComputerGraphics\Tutorials\goop\modules\florp\src\florp\graphics\TextureCube.cpp(225,62): warning C4267: '=': conversion from 'size_t' to 'uint32_t', possible loss of data
+C:\Users\arthi\Documents\ComputerGraphics\Tutorials\goop\modules\florp\src\florp\graphics\TextureCube.cpp(229,90): warning C4267: 'argument': conversion from 'size_t' to 'uint32_t', possible loss of data
+C:\Users\arthi\Documents\ComputerGraphics\Tutorials\goop\modules\florp\src\florp\graphics\TextureCube.cpp(230,89): warning C4267: 'argument': conversion from 'size_t' to 'uint32_t', possible loss of data
+C:\Users\arthi\Documents\ComputerGraphics\Tutorials\goop\modules\florp\src\florp\graphics\TextureCube.cpp(231,91): warning C4267: 'argument': conversion from 'size_t' to 'uint32_t', possible loss of data
+  TextureSampler.cpp
+  FileUtils.cpp
+  TextureUtils.cpp
+  Generating Code...
+C:\Users\arthi\Documents\ComputerGraphics\Tutorials\goop\modules\florp\src\florp\utils\FileUtils.cpp(41): warning C4715: 'florp::utils::ReadFile': not all control paths return a value
+C:\Users\arthi\Documents\ComputerGraphics\Tutorials\goop\modules\florp\src\florp\graphics\TextureCube.cpp(90): warning C4715: 'florp::graphics::GetPreferredSize': not all control paths return a value
+  FLORP.vcxproj -> C:\Users\arthi\Documents\ComputerGraphics\Tutorials\goop\modules\florp\bin\Debug-windows-x86_64\FLORP\FLORP.lib

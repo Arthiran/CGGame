@@ -1,0 +1,32 @@
+﻿  PostLayer.cpp
+C:\Users\arthi\Documents\ComputerGraphics\Tutorials\goop\projects\Tutorial 08 - Starter\src\layers\PostLayer.cpp(161,17): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\arthi\Documents\ComputerGraphics\Tutorials\goop\projects\Tutorial 08 - Starter\src\layers\PostLayer.cpp(198,55): warning C4267: 'argument': conversion from 'size_t' to 'uint32_t', possible loss of data
+C:\Users\arthi\Documents\ComputerGraphics\Tutorials\goop\projects\Tutorial 08 - Starter\src\layers\PostLayer.cpp(201,48): warning C4267: 'argument': conversion from 'size_t' to 'uint32_t', possible loss of data
+C:\Users\arthi\Documents\ComputerGraphics\Tutorials\goop\projects\Tutorial 08 - Starter\src\layers\PostLayer.cpp(205,55): warning C4267: 'argument': conversion from 'size_t' to 'uint32_t', possible loss of data
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\xmemory(204,33): warning C4244: 'argument': conversion from '_Ty' to 'uint32_t', possible loss of data
+          with
+          [
+              _Ty=float
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\memory(1490): message : see reference to function template instantiation 'void std::_Construct_in_place<_Ty,float,float>(_Ty &,float &&,float &&) noexcept(false)' being compiled
+          with
+          [
+              _Ty=FrameBuffer
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\memory(1590): message : see reference to function template instantiation 'std::_Ref_count_obj2<_Ty>::_Ref_count_obj2<float,float>(float &&,float &&)' being compiled
+          with
+          [
+              _Ty=FrameBuffer
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\memory(1591): message : see reference to function template instantiation 'std::_Ref_count_obj2<_Ty>::_Ref_count_obj2<float,float>(float &&,float &&)' being compiled
+          with
+          [
+              _Ty=FrameBuffer
+          ]
+C:\Users\arthi\Documents\ComputerGraphics\Tutorials\goop\projects\Tutorial 08 - Starter\src\layers\PostLayer.cpp(260): message : see reference to function template instantiation 'std::shared_ptr<FrameBuffer> std::make_shared<FrameBuffer,float,float>(float &&,float &&)' being compiled
+  main.cpp
+  Generating Code...
+LIBCMTD.lib(initializers.obj) : warning LNK4098: defaultlib 'libcmt.lib' conflicts with use of other libs; use /NODEFAULTLIB:library
+  Tutorial 08 - Starter.vcxproj -> C:\Users\arthi\Documents\ComputerGraphics\Tutorials\goop\projects\Tutorial 08 - Starter\..\..\bin\Debug-windows-x86_64\Tutorial 08 - Starter\Tutorial 08 - Starter.exe
+  2 File(s) copied
+  25 File(s) copied
